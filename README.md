@@ -1,2 +1,2 @@
 # WeatherAPI
-Python program designed to give weather information based on name of city
+Python program designed to give weather information based on name of city. This program takes user input, and the utilizes the information on OpenWeatherMap.org via an API thats inducted inside the program to provide information on the city. Where it stands now, it is able to provide information on Weather in both celcius and farenheit, windspeed, humudity, sunset and sunrise at local times, as well as a general description of what the weather "feels like" at that place.  
