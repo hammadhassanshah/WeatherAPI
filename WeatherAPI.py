@@ -4,7 +4,7 @@ import requests
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
 API_KEY = "41e48edf7333fc47a9cac41eddebfec6"
 
-CITY = input("Please enter the name of your city:",)
+CITY = input("Please enter the name of your city:", )
 
 
 def kelvin_to_celsius_farenheit(kelvin):
@@ -35,8 +35,7 @@ sunset_time = dt.datetime.utcfromtimestamp(
 
 
 print(f"Temperature in {CITY}: {temp_celsius: .2f}°C or {temp_farenheit}°F")
-print(
-    f"Temperature in {CITY} feels like: {feels_like_celsius: .2f}°C or {feels_like_farenheit}°F")
+print(f"Temperature in {CITY} feels like: {feels_like_celsius: .2f}°C or {feels_like_farenheit}°F")
 print(f"Humidity in {CITY}: {humidity}%")
 print(f"Wind Speed in {CITY}: {wind_speed}m/s")
 print("General Weather in {CITY}: {description}")
